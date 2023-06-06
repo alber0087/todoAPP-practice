@@ -1,0 +1,38 @@
+.wrapper {
+  margin: 20px;
+}
+
+.add-task {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+input[type='text'] {
+  padding-left: 14px;
+}
+
+button {
+  padding: 12px;
+  margin: 2px;
+}
+
+.list {
+  margin: 0 auto;
+  border: 1px solid white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  color: green;
+  text-decoration: underline;
+}
